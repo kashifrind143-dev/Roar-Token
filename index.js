@@ -49,7 +49,7 @@ app.post('/webhook', async (req, res) => {
     res.sendStatus(200);
 });
 
-app.get('/', (req, res) => res.send('Crypto Mining Mini App is running!'));
+app.get('/', (req, res) => res.send('roar is running!'));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
